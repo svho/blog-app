@@ -1,9 +1,11 @@
 .App {
-  text-align: center;
+    background-color: #444;
+    color: #DDD;
+    font-family: sans-serif;  /*noch was cooleres finden*/
+    height: 800px;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
@@ -11,14 +13,5 @@
   background-color: #222;
   height: auto;
   padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  text-align: center;
 }
