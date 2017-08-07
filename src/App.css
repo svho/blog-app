@@ -1,7 +1,13 @@
+h1, h2, h3, h4 {
+  color: #0E0E0E;
+  font-family: 'Playfair Display', serif;
+}
+
 .App {
-    background-color: #444;
-    color: #DDD;
-    font-family: sans-serif;  /*noch was cooleres finden*/
+    background-color: #EEE;
+    color: #0E0E0E;
+    font-size: 14pt;
+    font-family: 'Tinos', serif;
     height: 800px;
 }
 
@@ -10,8 +16,17 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: auto;
-  padding: 20px;
+  background-image: url('./img/bg.png');
+  height: 33%;
+  width: 100%;
+  padding-top: 20px;
   text-align: center;
+}
+
+.centered {
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
 }

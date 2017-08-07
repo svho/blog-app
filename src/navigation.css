@@ -1,0 +1,11 @@
+.Navigation {
+  color: #0E0E0E;
+  border-radius: 0;
+  border-top-color: #000;
+  border-style: solid;
+  border-top-width: thin;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+}
