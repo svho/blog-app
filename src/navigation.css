@@ -1,5 +1,5 @@
 .Navigation {
-  color: #0E0E0E;
+  color: #0E0E0E !important;
   border-radius: 0;
   border-top-color: #000;
   border-style: solid;
@@ -8,4 +8,16 @@
 
 .hover-underline:hover {
   text-decoration: underline;
+}
+
+.nav-item{
+  color: #444 !important;
+}
+
+.nav-item:hover{
+  color: #0E0E0E !important;
+}
+
+.nav-item-active {
+  color: #111 !important;
 }

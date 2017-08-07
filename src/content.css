@@ -1,0 +1,35 @@
+h1, h2, h3, h4 {
+  color: #0E0E0E;
+  font-family: 'Playfair Display', serif;
+}
+
+.content{
+  max-width: 960px;
+  height: 500px;
+  padding: 0px 10px;
+
+  background-color: #EEE;
+  color: #0E0E0E;
+  font-size: 14pt;
+  font-family: 'Tinos', serif;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.centered-h {
+position: relative;
+left: 50%;
+-webkit-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+transform: translateX(-50%);
+}
+
+.centered-v {
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
